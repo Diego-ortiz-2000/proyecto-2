@@ -8,25 +8,191 @@
   <title></title>
   <meta name="description" content="" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
   <header>
     <img src="assets/Innova-Header-4-.jpg" alt="header img">
-      <nav>
-        <a href="./index.html">
-          <img src="assets/home-automation.jpg" alt="home">
-        
-        </a>
-        <a href="./pages/compras.html">
-          <img src="assets/carro-de-compras-rapido.jpg" alt="carro de compra">
-        </a>
-      </nav>
+    <nav>
+      <a href="./index.html">
+        <img src="assets/home-automation.jpg" alt="home">
+
+      </a>
+      <a href="./pages/compras.html">
+        <img src="assets/carro-de-compras-rapido.jpg" alt="carro de compra">
+      </a>
+    </nav>
   </header>
-  <div>
-    
-  </div>
+  <section>
+    <div class="card">
+
+      <div class="imagen">
+        <img src="assets/camara.jpg" alt="Nikon">
+      </div>
+
+      <div class="info">
+
+        <h2 id="h2-1"></h2>
+
+        <p id="precio-1"></p>
+
+        <p id="stock-1"> <span></span></p>
+
+        <div>
+          <button onclick="restar(1)">-</button>
+          <span id="cantidad-1">0</span>
+          <button onclick="sumar(1)">+</button>
+        </div>
+
+        <button onclick="agregarAlCarrito(1)">
+          Agregar al carrito
+        </button>
+
+      </div>
+
+    </div>
+    <div class="card">
+
+      <div class="imagen">
+        <img src="assets/teclado.jpg" alt="Teclado mecanico">
+      </div>
+
+      <div class="info">
+
+        <h2 id="h2-2"></h2>
+
+        <p id="precio-2"></p>
+
+        <p id="stock-2"> <span></span></p>
+
+        <div>
+          <button onclick="restar(2)">-</button>
+          <span id="cantidad-2">0</span>
+          <button onclick="sumar(2)">+</button>
+        </div>
+
+       <button onclick="agregarAlCarrito(2)">
+          Agregar al carrito
+        </button>
+
+      </div>
+
+    </div>
+    <div class="card">
+
+      <div class="imagen">
+        <img src="assets/mause.jpg" alt="mause gamer">
+      </div>
+
+      <div class="info">
+
+        <h2 id="h2-3"></h2>
+
+        <p id="precio-3"></p>
+
+        <p id="stock-3"> <span></span></p>
+
+        <div>
+          <button onclick="restar(3)">-</button>
+          <span id="cantidad-3">0</span>
+          <button onclick="sumar(3)">+</button>
+        </div>
+
+        <button onclick="agregarAlCarrito(3)">
+          Agregar al carrito
+        </button>
+
+      </div>
+
+    </div>
+    <div class="card">
+
+      <div class="imagen">
+        <img src="assets/monitor.jpg" alt="Monitor">
+      </div>
+
+      <div class="info">
+
+        <h2 id="h2-4"></h2>
+
+        <p id="precio-4"></p>
+
+        <p id="stock-4"> <span></span></p>
+
+        <div>
+          <button onclick="restar(4)">-</button>
+          <span id="cantidad-4">0</span>
+          <button onclick="sumar(4)">+</button>
+        </div>
+
+        <button onclick="agregarAlCarrito(4)">
+          Agregar al carrito
+        </button>
+
+      </div>
+
+    </div>
+    <div class="card">
+
+      <div class="imagen">
+        <img src="assets/notebook.jpg" alt="Notebook">
+      </div>
+
+      <div class="info">
+
+        <h2 id="h2-5"></h2>
+
+        <p id="precio-5"></p>
+
+        <p id="stock-5"> <span></span></p>
+
+        <div>
+          <button onclick="restar(5)">-</button>
+          <span id="cantidad-5">0</span>
+          <button onclick="sumar(5)">+</button>
+        </div>
+
+       <button onclick="agregarAlCarrito(5)">
+          Agregar al carrito
+        </button>
+
+      </div>
+
+    </div>
+    <div class="card">
+
+      <div class="imagen">
+        <img src="assets/Tablet.jpg" alt="tablet">
+      </div>
+
+      <div class="info">
+
+        <h2 id="h2-6"></h2>
+
+        <p id="precio-6"></p>
+
+        <p id="stock-6"> <span></span></p>
+
+        <div>
+          <button onclick="restar(6)">-</button>
+          <span id="cantidad-6">0</span>
+          <button onclick="sumar(6)">+</button>
+        </div>
+
+        <button onclick="agregarAlCarrito(6)">
+          Agregar al carrito
+        </button>
+
+      </div>
+
+    </div>
+  </section>
   <footer></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
   <script src="assets/js/index.js" async defer></script>
 </body>

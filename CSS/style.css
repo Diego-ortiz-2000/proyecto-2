@@ -1,8 +1,8 @@
-body{
-  background-color: rgb(0, 0, 0);
+body {
+  background-color: #07272a;
 }
 
-header{
+header {
   display: flex;
   width: 100%;
   height: 300px;
@@ -11,44 +11,124 @@ header{
     width: 100%;
     height: 300px;
     object-fit: cover;
-    display:flex;
+    display: flex;
   }
-  
-  nav{
-  position: absolute;
-  width: 100%;
- 
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-  align-items: center;
-  flex-direction: row;
-  align-items: center;
+
+  nav {
+    position: absolute;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    align-items: center;
   }
-  
-  
+
   nav a {
- 
-   height: 10px;
-  text-decoration: none;
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-top: 20px;
-  padding: 4px;
+    height: 10px;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+    padding: 4px;
   }
-   nav a img {
-    background-color: #0E5A62;
+  nav a img {
+    background-color: #0e5a62;
     border-radius: 50%;
     padding: 10%;
     width: 50px;
     height: 50px;
-   }
+  }
 }
 
-h1{
+h1 {
   color: wheat;
   position: fixed;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 20px;
+}
+.card {
+  width: 300px;
+  height: 470px;
 
+  background: wheat;
+
+  border-radius: 10px;
+
+  overflow: hidden;
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+
+  transition: 0.3s;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+.imagen {
+  width: 100%;
+  height: 70%;
+
+  background: wheat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin-bottom: 130px;
+}
+.info {
+  width: 100%;
+  height: 20%;
+
+  background: wheat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+ #h2-4 {
+  margin-left: 75px;
+  margin-top: 20px;
+}
+#comprar-4 {
+  margin-bottom: 60px;
+}
+.table{
+  
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  border-radius: 10%;
+}
+.table thead{
+  background-color: #043438;
+  margin-left: 500px;
+  margin-right: 500px;
+  th{
+    
+    color: white;
+    padding: 20px;
+  }
+}
