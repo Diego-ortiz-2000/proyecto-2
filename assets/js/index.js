@@ -176,4 +176,5 @@ function actualizarTabla(){
 
 }
 localStorage.setItem("carrito", JSON.stringify(carrito));
+
 actualizarTabla();

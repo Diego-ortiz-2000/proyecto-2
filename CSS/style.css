@@ -120,12 +120,12 @@ section {
   height: 100%;
   justify-content: center;
   display: flex;
-  border-radius: 10%;
 }
 .table thead{
   background-color: #043438;
   margin-left: 500px;
   margin-right: 500px;
+  border-radius: 5%;
   th{
     
     color: white;
